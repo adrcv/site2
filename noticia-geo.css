@@ -1,0 +1,38 @@
+@import url(//db.onlinewebfonts.com/c/9c2a09458e2f83605d5cc89800785bdc?family=CNNSansDisplay-Bold);
+@import url(//db.onlinewebfonts.com/c/7c788ff7f1f877b159b2b449b8ddfc82?family=CNNSansDisplay-Medium);
+
+:root {
+    --fonte-noticia: 'CNNSansDisplay-Bold';
+    --fonte-titulo: 'CNNSansDisplay-Medium';
+}
+
+* {
+    color: rgba(255, 255, 255, 0.87);
+}
+
+p {
+    font-family: var(--fonte-noticia);
+}
+
+h3 {
+    font-family: var(--fonte-titulo);
+    letter-spacing: 1px;
+    font-size: 1.4em;
+    font-weight: bolder;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 876px;
+    height: 484px;
+}
+
+.titulo-geo {
+    color: white;
+    font-family: var(--fonte-titulo);
+    letter-spacing: 1px;
+}
+
+
+

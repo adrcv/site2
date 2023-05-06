@@ -1,0 +1,158 @@
+.titulo-newsletters {
+    color: white;
+    font-size: 1.2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ img {
+    width: 300px;
+    height: 200px;
+ }
+
+a {
+    text-decoration: none;
+}
+
+.newsletter-container {
+    width: 300px;
+    height: 400px;
+    border: 1px solid white;
+    margin-top: 20px;
+    display: flex;
+}
+
+.newsletter-container p {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 15px;
+}
+
+.newsletter-container p:hover {
+    opacity: 0.5;
+}
+
+.newsletter-container-2 p:hover {
+    opacity: 0.5;
+}
+
+.newsletter-container-3 p:hover {
+    opacity: 0.5;
+}
+
+.newsletter-container h3 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 15px;
+    font-size: 1.1em;
+}
+
+.newsletter-container-2 {
+    width: 300px;
+    height: 400px;
+    border: 1px solid white;
+    margin-top: 20px;
+    display: flex;
+}
+
+.newsletter-container-2 p {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 15px;
+}
+
+.newsletter-container-2 h3 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 15px;
+    font-size: 1.1em;
+}
+
+.newsletter-container-3 {
+    width: 300px;
+    height: 400px;
+    border: 1px solid white;
+    margin-top: 20px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.newsletter-container-3 p {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 15px;
+}
+
+.newsletter-container-3 h3 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 15px;
+    font-size: 1.1em;
+}
+
+.newsletter-2 {
+    margin-left: 32px;
+    border: 1px solid white;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.newsletter-3 {
+    margin-left: 32px;
+    border: 1px solid white;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.newsletter-4 {
+    margin-left: 32px;
+    border: 1px solid white;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.newsletter-5 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.newsletter-6 {
+    margin-left: 32px;
+    border: 1px solid white;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.newsletter-7 {
+    margin-left: 32px;
+    border: 1px solid white;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.newsletter-8 {
+    margin-left: 32px;
+    border: 1px solid white;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.newsletter-10 {
+    margin-left: 32px;
+    border: 1px solid white;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.newsletter-11 {
+    margin-left: 32px;
+    border: 1px solid white;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.newsletter-12 {
+    margin-left: 32px;
+    font-size: 0.96em;
+    border: 1px solid white;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

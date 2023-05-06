@@ -1,0 +1,77 @@
+@import url(//db.onlinewebfonts.com/c/a71c8daa4ddc58767ca30b9eec8b2112?family=Halyard+Display+Black);
+@import url(//db.onlinewebfonts.com/c/b8e43844aee2ac9d9e78518e974389d9?family=Halyard+Display+Book);
+@import url(//db.onlinewebfonts.com/c/9c2a09458e2f83605d5cc89800785bdc?family=CNNSansDisplay-Bold);
+@import url(//db.onlinewebfonts.com/c/7c788ff7f1f877b159b2b449b8ddfc82?family=CNNSansDisplay-Medium);
+
+
+:root {
+    --fonte-noticia-2: 'CNNSansDisplay-Bold';
+    --fonte-titulo-2: 'CNNSansDisplay-Medium';
+}
+
+.titulo-principal {
+    font-family: var(--fonte-titulo), Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: white;
+    border-bottom: 2px solid white;
+    letter-spacing: 2px;
+}
+
+nav {
+    margin-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    border-bottom: 2px solid white;
+}
+
+.menu-inicial > a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.1em;
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+    transition: 0.4 all ease;
+}
+
+.menu-inicial > a:hover {
+    color: white;
+    transition: 0.4s all ease;
+}
+
+.menu-inicial > a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.4s ease-out;
+}
+
+.menu-inicial > a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+body {
+    background-color: rgba(17, 17, 17, 0.932);
+    margin: auto;
+    width: 1300px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: var(--fonte-titulo-2);
+    background-color: rgba(255, 255, 255, 0.205);
+    padding-top: 1px;
+    margin-bottom: 1px;
+    border-radius: 3px;
+}
